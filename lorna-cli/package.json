@@ -1,0 +1,22 @@
+{
+  "name": "lorna",
+  "version": "1.0.0",
+  "description": "command line toolkit for project initialization,dev-server,compilation and deploy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "theon",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^5.1.0"
+  },
+  "devDependencies": {
+    "chalk": "^4.0.0",
+    "fs-extra": "^9.0.0",
+    "path": "^0.12.7",
+    "through2": "^3.0.1",
+    "vinyl-fs": "^3.0.3",
+    "which": "^2.0.2"
+  }
+}
